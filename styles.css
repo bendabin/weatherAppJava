@@ -1,0 +1,21 @@
+body{
+    padding-top: 100px;
+    font-size: 2rem;  
+}
+
+p{
+    font-size: 1rem;
+}
+
+#t1-change{
+
+    color: blue;
+}
+
+
+/* Navbar Features*/
+.navbar{
+
+    /* text-align: center; */
+    
+}
