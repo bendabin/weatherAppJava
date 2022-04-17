@@ -1,2 +1,4 @@
-password-notes.txt
+#ignore login keys 
+secret.txt
 
+#        *.txt  (To ignore all files with a txt extention
