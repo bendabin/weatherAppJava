@@ -14,8 +14,19 @@ p{
 
 
 /* Navbar Features*/
-.navbar{
+.navbar{                    /*Add 100 padding to left and right side*/
+    padding: 0 100px;
 
-    /* text-align: center; */
-    
 }
+
+.brand-txt{
+    font-size: 2rem;    
+}
+
+.navbar-icon{
+    color: yellow;
+    font-size: 2.5rem;
+}
+
+
+
