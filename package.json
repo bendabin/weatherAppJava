@@ -1,0 +1,23 @@
+{
+  "name": "weatherappjava",
+  "version": "1.0.0",
+  "description": "A server which gets weather data from an API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bendabin/weatherAppJava.git"
+  },
+  "author": "Ben Dabin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bendabin/weatherAppJava/issues"
+  },
+  "homepage": "https://github.com/bendabin/weatherAppJava#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

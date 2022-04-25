@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
 
     <!-- CSS Stylesheets -->
@@ -9,77 +8,57 @@
 
     <!-- Font Awesome -->
     <!-- <script src="https://kit.fontawesome.com/7d6671dfd4.js" crossorigin="anonymous" ></script> -->
-    <script src="https://kit.fontawesome.com/ac29d08e71.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/ac29d08e71.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Bootstrap Libaries -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
     <title>My First Website</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- Container-fluid removes the horizontal padding as the container is inside the navbar and makes the navbar reactive and span the whole width -->
     <div class="container-fluid">
-    <!-- Create the navbar fixed to the top of the page. bg-dark (changes navbar colour) navbar-dark(changes text colour) -->
-    <nav class="navbar fixed-top navbar-dark bg-dark">
+      <!-- Create the navbar fixed to the top of the page. bg-dark (changes navbar colour) navbar-dark(changes text colour) -->
+      <nav class="navbar fixed-top navbar-dark bg-dark">
+        <!-- Add brand logo to navbar and font-awesome icon inside brand -->
+        <a class="navbar-brand" href="#"
+          ><i class="navbar-icon fa-solid fa-cloud-sun-rain"></i>
+          <span class="brand-txt">Weather Forecast</span></a
+        >
 
-            <!-- Add brand logo to navbar and font-awesome icon inside brand -->
-            <a class="navbar-brand" href="#"><i class="navbar-icon fa-solid fa-cloud-sun-rain"></i> <span class= "brand-txt">Weather Forecast</span></a>
+        <!-- Creates an icon menu list inside the navbar, you can add a togglebox later for smartphone, tablet settings -->
+        <!-- <ul class="navbar-nav"> -->
 
-            <!-- Creates an icon menu list inside the navbar, you can add a togglebox later for smartphone, tablet settings -->
-            <!-- <ul class="navbar-nav"> -->
+        <!-- Creates a flex box container for form class to enable customisation -->
+        <form action="/" method = "post" enctype="text/plain" class="d-flex">
+            <!-- Specifies form type = "search" adds extra features such as clear button-->
+          <input class="form-control" type="search" placeholder="City Name" name="search" aria-label="Search"/>
+          <button type="submit" class="btn btn-dark">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
 
-                <!-- Creates a flex box container for form class to enable customisation -->
-            <form class="d-flex">
-                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                <button type="button" class="btn btn-dark"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
-            
-            
-            
-                    
-            <!-- </ul>         -->
-    </nav>
-
-
-    <div class="container-fluid">
-
-        <h1>My First Website</h1>
-        <p>This is my first test website</p>
-
-        <br />
-        <h2>Here is the content of the list</h2>
-        <ul>
-            <li>To learn Japanese and become a fluent speaker</li>
-            <li>To get a decent job where someone doesn't screw you over</li>
-        </ul>
-
-        <h3 id="t1-change">Change the text here</h3>
-
-        <button class="btn btn-primary" type="submit">Button</button>
-        <br />
-        <button type="button" class="btn btn-outline-secondary">Secondary</button>
-        <br />
-        <!-- <button class= "a btn-chg">Click Me 1</button>
-    <button class= "b btn-chg">Click Me 2</button>
-    <button class= "c btn-chg">Click Me 3</button>
-    <button class= "d btn-chg">Click Me 4</button>
-    <button class= "e btn-chg">Click Me 5</button>
-    <button class= "f btn-chg">Click Me 6</button> -->
-
-        <a href="myHistory.html">To visit my next page please click here...............</a>
+        </form>
+      </nav>       
+        
     </div>
 
-        <!-- Java script files here -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="index.js" charset="utf-8"></script>
+      <!-- Java script files here -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+      ></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="index.js" charset="utf-8"></script>
     </div>
-</body>
-
+  </body>
 </html>
