@@ -15,10 +15,9 @@ app.get('/', function (req, res){
 });
 
 
-
-
 //This will be the channel or port that we host our server on 
 //Host the server on Localhost: 3000
 app.listen(3000, function(){
     console.log("Server is running on port 3000")
+    console.log("The server will now listen for GET requests from your browser");
 });                                 
